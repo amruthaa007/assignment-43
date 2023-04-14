@@ -27,3 +27,9 @@ print(Area)
 #output:
 >>enter the radius of circle: 7
 153.86
+# write a program to find reverse of a string.
+string="yaswanth"
+x=string[-1:-9:-1]
+print(x)
+#output:
+htnawsay

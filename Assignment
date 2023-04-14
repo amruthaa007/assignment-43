@@ -1,0 +1,16 @@
+#write a program when two numbers are given such that sum,difference and their exponent must be printed on three new lines.
+#code:
+     a=input("enter first number")
+     b=input("enter second number")
+     X=a+b
+     Y=a-b
+     Z=a**b
+     Print(x)
+     Print(y)
+     Print(z)
+#output:
+>>enter first number:2
+>>enter second number:3
+5
+-1
+8

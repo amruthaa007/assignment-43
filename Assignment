@@ -14,7 +14,7 @@
 5
 -1
 8
-#write a program to count the characters in a goven string.
+#write a program to count the characters in a given string.
 string="Amrutha is in Anantapur"
 x=string.count("A")
 print(x)

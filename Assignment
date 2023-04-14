@@ -47,4 +47,15 @@ x=string.replace("roll","admission")
 print(x)
 #output:
 My admission number is 22001A0543
-      
+#write a program to swap two numbers.
+#code:
+a=input("enter a number")
+b=input("enter another number")
+x=int(a)
+int(a)=int(b)
+int(b)=x
+print(a,b)
+#output:
+enter a number:5
+enter another number:10
+10 5

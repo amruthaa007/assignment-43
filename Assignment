@@ -20,3 +20,10 @@ x=string.count("A")
 print(x)
 #output:
 >>2
+# write a program to find area of circle
+a=input("enter the radius of circle")
+Area=(3.14)*int(a)*int(a)
+print(Area)
+#output:
+>>enter the radius of circle: 7
+153.86

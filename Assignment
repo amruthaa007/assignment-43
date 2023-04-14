@@ -40,3 +40,11 @@ print(x)
 #output:
 >>enter a number:5
 1.7099759466766968
+
+#write a program to replace word from a given string.
+string="My roll number is 22001A0543"
+x=string.replace("roll","admission")
+print(x)
+#output:
+My admission number is 22001A0543
+      

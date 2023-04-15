@@ -59,3 +59,54 @@ print(a,b)
 enter a number:5
 enter another number:10
 10 5
+#write a program to find LCM of a number.
+#code:
+      # Python Program to find the L.C.M. of two input number
+
+def compute_lcm(x, y):
+
+   # choose the greater number
+   if x > y:
+       greater = x
+   else:
+       greater = y
+
+   while(True):
+       if((greater % x == 0) and (greater % y == 0)):
+           lcm = greater
+           break
+       greater += 1
+
+   return lcm
+
+num1 = 54
+num2 = 24
+
+print("The L.C.M. is", compute_lcm(num1, num2))
+#write a program to print Fibonacci series 
+#code:
+     # Program to display the Fibonacci sequence up to n-th term
+
+nterms = int(input("How many terms? "))
+
+# first two terms
+n1, n2 = 0, 1
+count = 0
+
+# check if the number of terms is valid
+if nterms <= 0:
+   print("Please enter a positive integer")
+# if there is only one term, return n1
+elif nterms == 1:
+   print("Fibonacci sequence upto",nterms,":")
+   print(n1)
+# generate fibonacci sequence
+else:
+   print("Fibonacci sequence:")
+   while count < nterms:
+       print(n1)
+       nth = n1 + n2
+       # update values
+       n1 = n2
+       n2 = nth
+       count += 1
